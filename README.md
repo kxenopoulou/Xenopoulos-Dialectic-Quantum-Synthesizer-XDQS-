@@ -212,22 +212,9 @@ if __name__ == "__main__":
         print(f"Critical Error: {str(e)}")
 ```
 
-### Key Improvements:
-1. **History Correction**:
-   - Fixed `historical_decay[2]` from 0.6 → 0.85
-   - Added assert for bounds checking
 
-2. **Noise Control**:
-   - Double clipping system (-5,5 and -quantum_threshold, quantum_threshold)
+  
 
-3. **Safety Systems**:
-   - Enhanced checks in `sanity_check()`
-   - More robust state reset
 
-4. **Visualization**:
-   - Professional color scheme
-   - Improved labels and diagrams
-
-The code now fully complies with all Xenopoulos criteria and is ready for academic use or scientific simulation. 
 
 
